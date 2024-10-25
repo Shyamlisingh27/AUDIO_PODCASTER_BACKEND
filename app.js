@@ -4,7 +4,7 @@ const cookieparser=require("cookie-parser")
 
 const cors = require('cors');
 app.use(cors({
-    origin:["http://localhost:5173"],   //giving access of resources of server to webpage (frontend) running at port 5173 (jha se data aa rha h server p)
+    origin:["https://audio-podcast.vercel.app"],   //giving access of resources of server to webpage (frontend) running at port 5173 (jha se data aa rha h server p)
     credentials:true,
 }));
 
